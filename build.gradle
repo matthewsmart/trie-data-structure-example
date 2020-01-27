@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.google.guava:guava:28.2-jre"
+    testCompile "org.hamcrest:hamcrest-core:2.2"
+    testCompile "org.hamcrest:hamcrest-library:2.2"
+    testCompile "junit:junit:4.12"
+}

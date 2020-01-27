@@ -1,0 +1,1 @@
+A simple example of implementing the ![Trie](https://en.wikipedia.org/wiki/Trie) data structure.
